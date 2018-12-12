@@ -1,5 +1,6 @@
 #ifndef NATURALNUMBER_H
 #define NATURALNUMBER_H
+
 #include <ostream>
 #include <istream>
 
@@ -24,10 +25,10 @@ public:
     NaturalNumber Subtract(NaturalNumber y); // *this < y이면 0을 아니면 *this-y를 반환
 
     
-//private:
+private:
     int naturalNumber;
 
-friend ostream& operator<<(ostream &, NaturalNumber &);
+friend ostream& operator << (ostream &, NaturalNumber &);
 // friend istream& operator>>(istream &, NaturalNumber &);
 };
 
@@ -44,7 +45,7 @@ void NaturalNumber::setNaturalNumber(int i) {
 }
 
 NaturalNumber NaturalNumber::Zero() {
-    return NaturalNumber(0);
+    return this -> naturalNumber = 0;
 }
 
 bool NaturalNumber::IsZero() {
@@ -56,11 +57,14 @@ bool NaturalNumber::IsZero() {
 }
 
 NaturalNumber NaturalNumber::Add(const NaturalNumber y) {
+    NaturalNumber added;
     if ( (this -> naturalNumber + y.naturalNumber) > MAXINT ) {
-        return NaturalNumber(MAXINT);
+        added.naturalNumber = this -> naturalNumber = MAXINT;
     } else {
-        return NaturalNumber(this -> naturalNumber + y.naturalNumber);
+        added.naturalNumber = this -> naturalNumber += y.naturalNumber;
     }
+
+    return added;
 }
 
 bool NaturalNumber::Equal(const NaturalNumber y) {
@@ -72,20 +76,20 @@ bool NaturalNumber::Equal(const NaturalNumber y) {
 
 NaturalNumber NaturalNumber::Successor() {
     if (this -> naturalNumber == MAXINT)
-        return NaturalNumber(MAXINT);
+        return this -> naturalNumber = MAXINT;
     else
-        return NaturalNumber(this -> naturalNumber);
+        return this -> naturalNumber += 1;
 }
 
 NaturalNumber NaturalNumber::Subtract(const NaturalNumber y) {
     if (this -> naturalNumber < y.naturalNumber)
-        return NaturalNumber(0);
+        return this -> naturalNumber = 0;
     else
-        return NaturalNumber(this -> naturalNumber - y.naturalNumber);
+        return this -> naturalNumber -= y.naturalNumber;
 }
 
-ostream& operator << (ostream & os, NaturalNumber & n) {
-    os << "Natural Number is : " << n.getNaturalNumber();
-}
+ ostream& operator << (ostream & os, NaturalNumber & n) {
+     os << "Natural Number is : " << n.naturalNumber;
+ }
 
 #endif

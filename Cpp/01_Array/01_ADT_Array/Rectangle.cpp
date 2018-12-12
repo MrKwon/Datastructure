@@ -64,6 +64,7 @@ ostream& operator << (ostream & os, Rectangle & r) {
     os << "Position is : " << "(" << r.GetxLow() << ", " << r.GetyLow() << ")" << endl;
     os << "Height is : " << r.GetHeight() << endl;
     os << "Width is : " << r.GetWidth() << endl;
+    return os;
 }
 
 // istream& operator >> (istream & is, Rectangle & r) {
