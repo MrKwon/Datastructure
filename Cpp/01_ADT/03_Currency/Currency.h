@@ -29,7 +29,7 @@ private:
     int centToCent(int);
 
 friend ostream& operator << (ostream&, Currency&);
-friend istream& operator << (istream&, Currency&);
+friend istream& operator >> (istream&, Currency&);
 };
 
 bool Currency::isDollar(int cents) {

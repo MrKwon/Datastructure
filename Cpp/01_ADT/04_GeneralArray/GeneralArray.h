@@ -1,5 +1,8 @@
 #ifndef GENERALARRAY_H
 #define GENERALARRAY_H
+#include <iostream>
+
+using namespace std;
 
 const int defaultValue = 0;
 
@@ -14,7 +17,7 @@ class GeneralArray {
 
 private:
     unsigned int j;
-    unsigned int list;
+    // unsigned int list;
     float initValue = defaultValue;
 
     // for inner operatrion
@@ -22,17 +25,16 @@ private:
     float *inArr;
 
 public:
-    GeneralArray(unsigned int, unsigned int, float);
+    GeneralArray(unsigned int, /*unsigned int,*/ float);
 
-    float Retrieve(unsigned int);
-    void Store(unsigned int, float);
-    
+    float Retrieve(unsigned int, unsigned int);
+    void Store(unsigned int, unsigned int, float);
 
-    
+friend ostream& operator << (ostream&, GeneralArray&);
 };
 
-GeneralArray::GeneralArray(unsigned int j, unsigned int list, float initValue)
-: j(j), list(list), initValue(initValue)
+GeneralArray::GeneralArray(unsigned int j, /*unsigned int list,*/ float initValue)
+// : j(j), list(list), initValue(initValue)
 {
 // 이 생성자는 j차원 실수 배열을 생성한다.
 // k번째 인덱스의 범위는 list의 k번째 원소로 정해진다.
@@ -41,16 +43,64 @@ GeneralArray::GeneralArray(unsigned int j, unsigned int list, float initValue)
     for (int i = 0; i < j; ++i) {
         arr[i] = new float [i];
     }
+
+    for (int h = 0; h < j; h++)
+        for (int i = 0; i < j; i++){
+            arr[h][i] = initValue;
+            printf("%d ", arr[i][j]);
+        }   
 }
 
-float GeneralArray::Retrieve(unsigned int index) {
+// 2차원 배열이므로 index는 i, j
+float GeneralArray::Retrieve(unsigned int i, unsigned int j) {
     // i가 배열의 index 집합에 있으면 배열에서 i와 쌍이 되는 float를 반환하고,
     // 그렇지 않으면 예외를 발생시킨다.
+    try {
+        return this -> arr[i][j];
+    } catch (int errorCode) {
+        printf( "index [%d, %d] is not available", i, j);
+    }
 }
 
-void GeneralArray::Store(unsigned int index, float x) {
+void GeneralArray::Store(unsigned int i, unsigned int j, float x) {
 // i가 배열의 index 집합에 있으면 배열에서 i와 쌍이 되는 값을 x로 대체하고
 // 그렇지 않으면 예외를 발생시킨다.
+    try {
+        this -> arr[i][j] = x;
+    } catch (int errorCode) {
+        printf( "index [%d, %d] is not available", i, j);
+    }
+}
+
+ostream& operator << (ostream& os, GeneralArray& genArr) {
+    for (int h = 0; h < genArr.j; h++) {
+        for (int i = 0; i < genArr.j; i++) {
+            os << "This is your General Array" << endl;
+            // 맨 윗줄 print
+            if (h == 0 && i == 0) 
+                os << "┌ " << genArr.arr[h][i] << " ";
+            else if (h == 0 && i != 0) 
+                os << genArr.arr[h][i] << " ";
+            else if (h == 0 && i == genArr.j - 1) 
+                os << genArr.arr[h][i] << " ┐" << endl;
+
+            // 중간줄 print
+            else if(h != 0 && i == 0)
+                os << "│ " << genArr.arr[h][i] << " ";
+            else if(h != 0 && i != 0)
+                os << genArr.arr[h][i] << " ";
+            else if(h != 0 && i == genArr.j - 1)
+                os << genArr.arr[h][i] << " │" << endl;
+
+            // 마지막 줄 print
+            else if(h == genArr.j - 1 && i == 0)
+                os << "└ " << genArr.arr[h][i] << " ";
+            else if(h == genArr.j - 1 && i != 0)
+                os << genArr.arr[h][i] << " ";
+            else if(h == genArr.j - 1 && i == genArr.j - 1)
+                os << genArr.arr[h][i] << " ┘" << endl;
+        }
+    }
 }
 
 #endif
