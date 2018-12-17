@@ -6,10 +6,9 @@
         {
             "label": "build",
             "type": "shell",
-            "command": "gcc.exe",
+            "command": "g++",
             "args": [
-                "-o",
-                "${fileBasenameNoExtension}.exe",
+                "-g",
                 "${file}"
             ],
             "problemMatcher": [

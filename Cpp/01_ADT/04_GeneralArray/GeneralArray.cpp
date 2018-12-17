@@ -2,7 +2,8 @@
 #include "GeneralArray.h"
 
 int main(void) {
-    GeneralArray genArr(3, 1);
+    GeneralArray *genArr01 = new GeneralArray(3, 1);
+    GeneralArray genArr02(4, 3);
 
-    cout << genArr << endl;
+    return 0;
 }
