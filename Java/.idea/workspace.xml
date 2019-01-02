@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="369e8476-0d1d-4d6f-bb2a-8ce0f757a22f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/doit/chapter06/ArraysSortTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/doit/chapter06/HeapSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/doit/chapter06/MergeArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/doit/chapter06/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/doit/chapter06/Partition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/doit/chapter06/PhyscExamSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/doit/chapter06/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/doit/chapter06/QuickSort1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/doit/chapter06/ShellSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/doit/chapter06/SortCalendar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/doit/chapter07/IntSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/doit/chapter07/IntSetTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/doit/chapter08/BFmatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/doit/chapter08/BMmatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/doit/chapter08/IndexOfTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/doit/chapter08/KMPmatch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -35,26 +31,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="60" />
+          <entry key="java" value="68" />
           <entry key="md" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="60" />
+          <entry key="JAVA" value="68" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="java" value="26154" />
+          <entry key="java" value="31652" />
           <entry key="md" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="26154" />
+          <entry key="JAVA" value="31652" />
           <entry key="PLAIN_TEXT" value="26" />
         </counts>
       </usages-collector>
@@ -63,91 +59,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/doit/chapter06/Partition.java">
+        <entry file="file://$PROJECT_DIR$/src/com/doit/chapter08/KMPmatch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/doit/chapter06/QuickSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="52" column="43" lean-forward="true" selection-start-line="52" selection-start-column="43" selection-end-line="52" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/doit/chapter06/QuickSort1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/doit/chapter06/MergeArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="31" column="37" lean-forward="true" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/doit/chapter06/MergeSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/doit/chapter06/ArraysSortTester.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/doit/chapter06/SortCalendar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/doit/chapter06/PhyscExamSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="57" column="10" lean-forward="true" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="55">
+              <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="62" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/doit/chapter06/HeapSort.java">
+        <entry file="file://$PROJECT_DIR$/src/com/doit/chapter08/BMmatch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+            <state relative-caret-position="319">
+              <caret line="39" column="34" lean-forward="true" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -167,10 +91,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/doit/chapter01/Max3m.java" />
-        <option value="$PROJECT_DIR$/src/com/doit/chapter01/Max.java" />
-        <option value="$PROJECT_DIR$/src/com/doit/chapter01/Median.java" />
-        <option value="$PROJECT_DIR$/src/com/doit/chapter02/Array.java" />
         <option value="$PROJECT_DIR$/src/com/doit/chapter02/PrimeNumber1.java" />
         <option value="$PROJECT_DIR$/src/com/doit/chapter02/PrimeNumber2.java" />
         <option value="$PROJECT_DIR$/src/com/doit/chapter02/PrimeNumber3.java" />
@@ -216,6 +136,12 @@
         <option value="$PROJECT_DIR$/src/com/doit/chapter06/SortCalendar.java" />
         <option value="$PROJECT_DIR$/src/com/doit/chapter06/PhyscExamSort.java" />
         <option value="$PROJECT_DIR$/src/com/doit/chapter06/HeapSort.java" />
+        <option value="$PROJECT_DIR$/src/com/doit/chapter07/IntSetTester.java" />
+        <option value="$PROJECT_DIR$/src/com/doit/chapter07/IntSet.java" />
+        <option value="$PROJECT_DIR$/src/com/doit/chapter08/BFmatch.java" />
+        <option value="$PROJECT_DIR$/src/com/doit/chapter08/IndexOfTester.java" />
+        <option value="$PROJECT_DIR$/src/com/doit/chapter08/KMPmatch.java" />
+        <option value="$PROJECT_DIR$/src/com/doit/chapter08/BMmatch.java" />
       </list>
     </option>
   </component>
@@ -256,7 +182,7 @@
               <item name="Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="doit" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter06" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter08" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -266,7 +192,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546398608459" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546409408919" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Kotlin" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
@@ -288,13 +214,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HeapSort">
-    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.doit.chapter06.HeapSort" />
+  <component name="RunManager" selected="Application.BMmatch">
+    <configuration name="BFmatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.doit.chapter08.BFmatch" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.doit.chapter06.*" />
+          <option name="PATTERN" value="com.doit.chapter08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -302,12 +228,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.doit.chapter06.MergeArray" />
+    <configuration name="BMmatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.doit.chapter08.BMmatch" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.doit.chapter06.*" />
+          <option name="PATTERN" value="com.doit.chapter08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -315,12 +241,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.doit.chapter06.MergeSort" />
+    <configuration name="IndexOfTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.doit.chapter08.IndexOfTester" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.doit.chapter06.*" />
+          <option name="PATTERN" value="com.doit.chapter08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -328,12 +254,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhyscExamSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.doit.chapter06.PhyscExamSort" />
+    <configuration name="IntSetTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.doit.chapter07.IntSetTester" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.doit.chapter06.*" />
+          <option name="PATTERN" value="com.doit.chapter07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -341,12 +267,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortCalendar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.doit.chapter06.SortCalendar" />
+    <configuration name="KMPmatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.doit.chapter08.KMPmatch" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.doit.chapter06.*" />
+          <option name="PATTERN" value="com.doit.chapter08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -355,19 +281,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MergeArray" />
-      <item itemvalue="Application.MergeSort" />
-      <item itemvalue="Application.SortCalendar" />
-      <item itemvalue="Application.PhyscExamSort" />
-      <item itemvalue="Application.HeapSort" />
+      <item itemvalue="Application.IntSetTester" />
+      <item itemvalue="Application.BFmatch" />
+      <item itemvalue="Application.IndexOfTester" />
+      <item itemvalue="Application.KMPmatch" />
+      <item itemvalue="Application.BMmatch" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HeapSort" />
-        <item itemvalue="Application.PhyscExamSort" />
-        <item itemvalue="Application.SortCalendar" />
-        <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.MergeArray" />
+        <item itemvalue="Application.BMmatch" />
+        <item itemvalue="Application.KMPmatch" />
+        <item itemvalue="Application.IndexOfTester" />
+        <item itemvalue="Application.BFmatch" />
+        <item itemvalue="Application.IntSetTester" />
       </list>
     </recent_temporary>
   </component>
@@ -388,7 +314,7 @@
     <frame x="-6" y="-6" width="1453" height="933" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.121689335" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.121689335" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -397,7 +323,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34409937" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4099379" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -420,42 +346,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/doit/chapter01/Max3m.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/doit/chapter01/Median.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="32" column="58" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/doit/chapter02/Array.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="68" column="30" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/doit/chapter02/PrimeNumber1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/doit/chapter02/PrimeNumber2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/doit/chapter02/PrimeNumber3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="29" column="57" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/doit/chapter02/DayOfYear.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="902">
@@ -777,6 +667,60 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/doit/chapter07/IntSetTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/doit/chapter07/IntSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="159" column="5" selection-start-line="159" selection-start-column="5" selection-end-line="159" selection-end-column="5" />
+          <folding>
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#723#724#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#2419#2420#0" expanded="true" />
+            <element signature="e#2457#2458#0" expanded="true" />
+            <element signature="e#2492#2493#0" expanded="true" />
+            <element signature="e#2525#2526#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/doit/chapter08/IndexOfTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/doit/chapter08/BFmatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-88">
+          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/doit/chapter08/KMPmatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="62" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/doit/chapter08/BMmatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="39" column="34" lean-forward="true" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
         </state>
       </provider>
     </entry>
