@@ -70,7 +70,7 @@ public class IntStack {
 
     public void dump() {
         if (this.ptr <= 0)
-            System.out.println("Stack is Empty");
+            System.out.println("Object is Empty");
         else {
             for (int i = 0; i < this.ptr; i++)
                 System.out.print(stk[i] + " ");
