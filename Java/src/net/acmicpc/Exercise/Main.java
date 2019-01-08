@@ -1,36 +1,26 @@
 package net.acmicpc.Exercise;
 
-import java.util.Scanner;
+import java.io.*;
+import java.math.BigDecimal;
+import java.util.StringTokenizer;
 
 public class Main {
-    public static void main(String[] args){
-        Scanner stdIn = new Scanner(System.in);
+    public static void main(String[] args) throws IOException {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        StringBuilder sb = new StringBuilder();
 
-        int kg = stdIn.nextInt();
-        int result = 0;
+        StringTokenizer st = new StringTokenizer(reader.readLine());
 
-        while (true) {
-            if (kg == 0) {
-                break;
+        BigDecimal result;
+        int a = Integer.parseInt(st.nextToken());
+        int b = Integer.parseInt(st.nextToken());
+        int c = Integer.parseInt(st.nextToken());
 
-            } else if (kg % 5 == 0 && kg % 3 == 0) {
-                result += kg / 5;
-                kg -= 5 * (kg / 5);
+        result = BigDecimal.valueOf(a).pow(b);
+        result = result.remainder(BigDecimal.valueOf(c));
 
-            } else if (kg >= 5 && kg % 3 != 0) {
-                result += 1;
-                kg -= 5;
+        sb.append(result);
 
-            } else if (kg >= 3 && kg % 5 != 0) {
-                result += 1;
-                kg -= 3;
-
-            } else {
-                result = -1;
-                break;
-            }
-        }
-
-        System.out.println(result);
+        System.out.println(sb);
     }
 }
