@@ -2,7 +2,6 @@ package michael.dsalgo.Chapter03.SinglyLinkedList;
 
 public class SinglyLinkedList<E> {
 
-
     protected Node<E> head;
     protected long size;
 

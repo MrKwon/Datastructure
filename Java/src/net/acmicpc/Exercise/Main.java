@@ -1,26 +1,23 @@
 package net.acmicpc.Exercise;
 
-import java.io.*;
-import java.math.BigDecimal;
-import java.util.StringTokenizer;
+import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) throws IOException {
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        StringBuilder sb = new StringBuilder();
+    private static int fib(int n) {
+        int[] arr = new int[45 + 1];
 
-        StringTokenizer st = new StringTokenizer(reader.readLine());
+        arr[0] = 0;
+        arr[1] = 1;
 
-        BigDecimal result;
-        int a = Integer.parseInt(st.nextToken());
-        int b = Integer.parseInt(st.nextToken());
-        int c = Integer.parseInt(st.nextToken());
+        for (int i = 2; i <= n; i++)
+            arr[i] = arr[i - 2] + arr[i - 1];
 
-        result = BigDecimal.valueOf(a).pow(b);
-        result = result.remainder(BigDecimal.valueOf(c));
+        return arr[n];
+    }
 
-        sb.append(result);
-
-        System.out.println(sb);
+    public static void main(String[] args) {
+        Scanner stdIn = new Scanner(System.in);
+        int n = stdIn.nextInt();
+        System.out.println(fib(n));
     }
 }
