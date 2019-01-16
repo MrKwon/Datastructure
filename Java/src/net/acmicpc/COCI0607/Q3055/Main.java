@@ -1,4 +1,4 @@
-package net.acmicpc.Exercise;
+package net.acmicpc.COCI0607.Q3055;
 
 import java.io.*;
 
@@ -8,6 +8,15 @@ public class Main {
 
     static private String[][] map; // 지도
     static private int dist = 0; // 이동 거리
+
+    private static void printMap(String[][] arr) {
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++)
+                System.out.print(arr[i][j]);
+            System.out.println();
+        }
+        System.out.println();
+    }
 
     private static String[][] deepCopy(String[][] input) {
         if (input.length == 0) return null;
@@ -21,6 +30,12 @@ public class Main {
         return result;
     }
 
+    /**
+     * 현위치 기준 상하 좌우 이동 가능한지?
+     * @param x 현재 위치의 x 좌표
+     * @param y 현재 위치의 y 좌표
+     * @return 상하좌우 이동이 가능하면 true 불가능하면 false
+     */
     private static boolean canMove(int x, int y) {
         return (map[x - 1][y].equals(".") || map[x - 1][y].equals("D") ||
                 map[x + 1][y].equals(".") || map[x + 1][y].equals("D") ||
@@ -34,6 +49,7 @@ public class Main {
         for (int i = 0; i < map.length; i++) {
             for (int j = 0; j < map[i].length; j++) {
                 if (map[i][j].equals("*")) {
+                    // map 의 원소 중에 *이 있는 위치에 대하여 map 은 기준으로 두기 때문에 바꾸지 않는다
                     if (map[i - 1][j].equals(".")) tmp[i - 1][j] = "*";
                     if (map[i + 1][j].equals(".")) tmp[i + 1][j] = "*";
                     if (map[i][j - 1].equals(".")) tmp[i][j - 1] = "*";
@@ -45,7 +61,7 @@ public class Main {
         map = deepCopy(tmp);
     }
 
-    private static int move() {
+    private static int move() { // 이동 방법이 틀렸음, 돌아가는 경우를 생각하지 않음
         if (locS[0] == locD[0] && locS[1] == locD[1]) return dist;
         if (!canMove(locS[0], locS[1])) return -1;
 
@@ -99,6 +115,17 @@ public class Main {
             writer.write("KAKTUS");
         else
             writer.write(String.valueOf(result));
+//        writer.write("이동 거리 : " + result + "\n");
+
+//        //지도 확인용
+//        for (int i = 0; i < R + 2; i++) {
+//            for (int j = 0; j < C + 2; j++)
+//                writer.write(map[i][j]);
+//            writer.write("\n");
+//        }
+//
+//        writer.write("where is D (" + locD[0] + ", " + locD[1] + ")\n");
+//        writer.write("where is S (" + locS[0] + ", " + locS[1] + ")\n");
 
         writer.flush();
         writer.close();
