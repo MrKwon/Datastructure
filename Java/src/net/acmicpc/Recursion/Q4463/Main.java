@@ -43,7 +43,7 @@ public class Main {
         while ((input = reader.readLine()) != null) { // eof 중지하게 만들기
             StringTokenizer st = new StringTokenizer(input, " ");
 
-            if(!st.hasMoreTokens()) break;
+            if (!st.hasMoreTokens()) break;
 
             int lo = Integer.parseInt(st.nextToken().replace("0x", ""), 16);
             int hi = Integer.parseInt(st.nextToken().replace("0x", ""), 16);
@@ -54,7 +54,8 @@ public class Main {
 
             boolean isFirst = false; // flag
             int i = 0;
-            for(int ele : fib) {
+            writer.write("Range " + lo + " to " + hi + ":\n");
+            for (int ele : fib) {
                 if (lo <= ele && ele <= hi) {
                     // fib와 log 구하기
                     writer.write("Fib(" + i + ") = " + ele + ", ");
@@ -69,14 +70,14 @@ public class Main {
                     //prime 구하기
                     ArrayList<Integer> prime = getPrimes(ele);
 
-                    if (prime.isEmpty()){
+                    if (prime.isEmpty()) {
                         writer.write("No prime factors\n");
                     } else {
-                        writer.write("Prime factors: "+
+                        writer.write("Prime factors: " +
                                 prime.toString()
-                                    .replace(", "," ")
-                                    .replace("[", "")
-                                    .replace("]", "") + "\n");
+                                        .replace(", ", " ")
+                                        .replace("[", "")
+                                        .replace("]", "") + "\n");
                     }
 
                 } else if (ele > hi && !isFirst) {
@@ -87,6 +88,7 @@ public class Main {
             }
             writer.write("\n");
         }
+
         writer.flush();
         writer.close();
     }

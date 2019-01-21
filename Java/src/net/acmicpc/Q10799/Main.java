@@ -10,6 +10,8 @@ public class Main {
         String[] input = reader.readLine().split("");
         Stack<Integer> stack = new Stack<>();
 
+        String in = "hello";
+
         int result = 0;
         int ppreStkSize;
         int preStkSize = 0; // 이전 size

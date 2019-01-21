@@ -5,7 +5,7 @@ import michael.dsalgo.Chapter06.PositionList.PositionException.*;
 import java.util.Iterator;
 
 /**
- * implementation of NodePositionList
+ * implementation of DoublyLinkedList
  * @author  KwonMC
  * @see     Node
  * @see     Position
@@ -30,7 +30,7 @@ public class NodePositionList<E> implements PositionList<E> {
 
     private Node<E> checkPosition(Position<E> p) throws InvalidPositionException {
         if (p == null)
-            throw new InvalidPositionException("Null position passed to NodePositionList");
+            throw new InvalidPositionException("Null position passed to DoublyLinkedList");
         if (p == first)
             throw new InvalidPositionException("first is not invalid position");
         if (p == last)
@@ -39,7 +39,7 @@ public class NodePositionList<E> implements PositionList<E> {
         try {
             Node<E> tmp = (Node<E>) p;
             if ((tmp.getPrev() == null) || (tmp.getNext() == null))
-                throw new InvalidPositionException("Position does net belong to a valid NodePositionList");
+                throw new InvalidPositionException("Position does net belong to a valid DoublyLinkedList");
             return tmp;
         } catch (ClassCastException e) {
             throw new InvalidPositionException

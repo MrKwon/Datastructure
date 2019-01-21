@@ -2,26 +2,68 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="369e8476-0d1d-4d6f-bb2a-8ce0f757a22f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter05/Deque/Deque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter05/Deque/DequeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter06/ArrayIndexList/ArrayIndexList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter06/ArrayIndexList/IndexList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter06/ArrayIndexList/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter06/PositionList/ElementIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter06/PositionList/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter06/PositionList/NodePositionList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter06/PositionList/Position.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter06/PositionList/PositionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter06/PositionList/PositionList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter06/Sequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter07/BasicTree/Position.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/net/acmicpc/COCI0607/Q3055/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter07/BasicTree/Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter07/BinaryTree/BTNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter07/BinaryTree/BTPosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter07/BinaryTree/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter07/BinaryTree/ElementIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter07/BinaryTree/EulerTour/EulerTour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter07/BinaryTree/EulerTour/EvaluateExpressionTour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter07/BinaryTree/EulerTour/Expressions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter07/BinaryTree/EulerTour/PrintExpressionTour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter07/BinaryTree/EulerTour/TourResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter07/BinaryTree/LinkedBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter07/BinaryTree/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter07/BinaryTree/NodePositionList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter07/BinaryTree/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter07/BinaryTree/PositionList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter07/BinaryTree/Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter07/TreeExceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter08/Class/Data/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter08/Class/DefaultComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter08/Class/ElementIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter08/Class/List/NodePositionList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter08/Class/Queue/HeapPriorityQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter08/Class/Queue/SortedListAdaptablePriorityQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter08/Class/Queue/SortedListPriorityQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter08/Class/Tree/ArrayListCompleteBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter08/Exceptions/EntryExceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter08/Exceptions/PQExceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter08/Exceptions/TreeExceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter08/Interface/Data/Entry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter08/Interface/Data/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter08/Interface/List/PositionList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter08/Interface/Queue/AdaptablePriorityQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter08/Interface/Queue/PriorityQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter08/Interface/Tree/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter08/Interface/Tree/CompleteBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter08/Interface/Tree/Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter08/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter09/DoublyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter09/ElementIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter09/Entry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter09/Exceptions/LinkedListExceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter09/Map.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter09/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter09/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter09/PositionList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter09/SimpleListMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/net/acmicpc/Exercise/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/michael/dsalgo/Chapter06/ArrayIndexList/ArrayIndexList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/michael/dsalgo/Chapter06/ArrayIndexList/ArrayIndexList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/michael/dsalgo/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/michael/dsalgo/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Java/net/acmicpc/Exercise/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/net/acmicpc/Exercise/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/net/acmicpc/Q3053/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/michael/dsalgo/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/michael/dsalgo/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/acmicpc/COCI0607/Q3054/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/acmicpc/COCI0607/Q3054/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/net/acmicpc/Q1002/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/net/acmicpc/Q1002/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/net/acmicpc/Q10799/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/net/acmicpc/Q10799/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/net/acmicpc/Recursion/Q4463/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/net/acmicpc/Recursion/Q4463/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/michael/dsalgo/Chapter06/PositionList/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter06/PositionList/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/michael/dsalgo/Chapter06/PositionList/NodePositionList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter06/PositionList/NodePositionList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/michael/dsalgo/Chapter06/PositionList/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter06/PositionList/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/michael/dsalgo/Chapter07/BasicTree/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter07/BasicTree/Position.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/net/acmicpc/Exercise/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/acmicpc/Exercise/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/acmicpc/Q1002/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/acmicpc/Q1002/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/acmicpc/Q10799/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/acmicpc/Q10799/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/acmicpc/Recursion/Q4463/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/acmicpc/Recursion/Q4463/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,42 +87,47 @@
     <session id="-395296905">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="14" />
+          <entry key="project.closed" value="27" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.12" value="4" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.12" value="5" />
           <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.14" value="3" />
           <entry key="project.open.time.15" value="2" />
-          <entry key="project.open.time.18" value="3" />
+          <entry key="project.open.time.16" value="2" />
+          <entry key="project.open.time.17" value="2" />
+          <entry key="project.open.time.18" value="4" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.opened" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="287" />
-          <entry key="md" value="11" />
+          <entry key="java" value="477" />
+          <entry key="md" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="287" />
-          <entry key="PLAIN_TEXT" value="11" />
+          <entry key="JAVA" value="477" />
+          <entry key="PLAIN_TEXT" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="57" />
-          <entry key="java" value="111320" />
+          <entry key="java" value="138951" />
           <entry key="md" value="1100" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="111320" />
+          <entry key="JAVA" value="138951" />
           <entry key="PLAIN_TEXT" value="1157" />
         </counts>
       </usages-collector>
@@ -89,19 +136,97 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/readme.md">
+        <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter09/DoublyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="23" column="69" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="69" />
+            <state relative-caret-position="-1716">
+              <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1270#1271#0" expanded="true" />
+                <element signature="e#1294#1295#0" expanded="true" />
+                <element signature="e#1340#1341#0" expanded="true" />
+                <element signature="e#1368#1369#0" expanded="true" />
+                <element signature="e#3761#3762#0" expanded="true" />
+                <element signature="e#3788#3789#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter07/BasicTree/Position.java">
+        <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter09/SimpleListMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1298">
+              <caret line="90" column="39" lean-forward="true" selection-start-line="90" selection-start-column="39" selection-end-line="90" selection-end-column="39" />
+              <folding>
+                <element signature="class#MyEntry#0;class#SimpleListMap#0" />
+                <element signature="e#364#365#0" expanded="true" />
+                <element signature="e#399#400#0" expanded="true" />
+                <element signature="e#448#449#0" expanded="true" />
+                <element signature="e#483#484#0" expanded="true" />
+                <element signature="e#520#521#0" expanded="true" />
+                <element signature="e#558#559#0" expanded="true" />
+                <element signature="e#599#600#0" expanded="true" />
+                <element signature="e#641#642#0" expanded="true" />
+                <element signature="e#888#889#0" expanded="true" />
+                <element signature="e#912#913#0" expanded="true" />
+                <element signature="e#958#959#0" expanded="true" />
+                <element signature="e#986#987#0" expanded="true" />
+                <element signature="e#1611#1612#0" expanded="true" />
+                <element signature="e#1638#1639#0" expanded="true" />
+                <element signature="e#1687#1688#0" expanded="true" />
+                <element signature="e#1714#1715#0" expanded="true" />
+                <element signature="e#1774#1775#0" expanded="true" />
+                <element signature="e#1801#1802#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter09/Position.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter09/Map.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="88">
-              <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter08/Class/List/NodePositionList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1554">
+              <caret line="160" column="24" selection-start-line="160" selection-start-column="24" selection-end-line="160" selection-end-column="24" />
+              <folding>
+                <element signature="method#last#0;class#NodePositionList#0" />
+                <element signature="method#prev#0;class#NodePositionList#0" />
+                <element signature="method#addFirst#0;class#NodePositionList#0" />
+                <element signature="method#addLast#0;class#NodePositionList#0" />
+                <element signature="e#4668#4669#0" expanded="true" />
+                <element signature="e#4718#4719#0" expanded="true" />
+                <element signature="e#4840#4853#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter09/ElementIterator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -112,9 +237,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Singleton" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ONE</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -122,57 +253,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/net/acmicpc/Q9184/Main.java" />
-        <option value="$PROJECT_DIR$/src/net/acmicpc/Q4463_Recursion/Main.java" />
-        <option value="$PROJECT_DIR$/src/net/acmicpc/Q4463/Main.java" />
-        <option value="$PROJECT_DIR$/src/net/acmicpc/Q11653/Main.java" />
-        <option value="$PROJECT_DIR$/src/net/acmicpc/Q1003/Main.java" />
-        <option value="$PROJECT_DIR$/src/net/acmicpc/Q1788/Main.java" />
-        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter05/ArrayStack/EmptyStackException.java" />
-        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter05/LinkedListStack/Node.java" />
-        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter05/LinkedListStack/Main.java" />
-        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter03/SinglyLinkedList/SinglyLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter05/Exception.java" />
-        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter05/EmptyStackException.java" />
-        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter05/Exceptions.java" />
-        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter05/LinkedListStack/NodeStack.java" />
-        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter05/EmptyStackExection.java" />
-        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter05/ArrayStack/ArrayStack.java" />
-        <option value="$PROJECT_DIR$/src/net/acmicpc/Recursion/Q4463/Main.java" />
-        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter05/LinkedListStack/Stack.java" />
-        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter05/HTMLTagMatching/HTML.java" />
-        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter05/ArrayStack/Stack.java" />
-        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter05/Queue/QueueExecption.java" />
-        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter05/Queue/Queue.java" />
-        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter05/Execptions.java" />
-        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter05/Queue/Main.java" />
-        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter05/Queue/ArrayQueue.java" />
-        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter05/Queue/NodeeQueue.java" />
-        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter05/Queue/NodeQueue.java" />
-        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter05/Josephus.java" />
-        <option value="$PROJECT_DIR$/src/net/acmicpc/Q1158/Main.java" />
-        <option value="$PROJECT_DIR$/src/net/acmicpc/Q3053/Main.java" />
-        <option value="$PROJECT_DIR$/src/net/acmicpc/COCI0607/Q3053/Main.java" />
-        <option value="$PROJECT_DIR$/src/net/acmicpc/COCI0607/Q3054/Main.java" />
+        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter07/BinaryTree/LinkedBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/net/acmicpc/Exercise/Main.java" />
-        <option value="$PROJECT_DIR$/src/net/acmicpc/COCI0607/Q3055/Main.java" />
-        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter06/IndexList.java" />
-        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter06/ArrayIndexList/Main.java" />
-        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter06/ArrayIndexList/ArrayIndexList.java" />
-        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter06/PositionList/Position.java" />
-        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter06/PositionList/PositionExecption.java" />
-        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter06/PositionList/PositionException.java" />
-        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter06/PositionList/Node.java" />
-        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter06/PositionList/NodeList.java" />
-        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter06/PositionList/PositionList.java" />
-        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter06/PositionList/NodePositionList.java" />
-        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter06/PositionList/ElementIterator.java" />
-        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter05/Deque/DequeException.java" />
-        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter05/Deque/Deque.java" />
-        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter06/Sequence.java" />
-        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter06/CaseStudy/FavoriteList.java" />
-        <option value="$PROJECT_DIR$/src/michael/dsalgo/readme.md" />
-        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter07/BasicTree/Position.java" />
+        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter07/BinaryTree/EulerTour/TourResult.java" />
+        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter07/BinaryTree/EulerTour/ExpressionTerm.java" />
+        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter07/BinaryTree/EulerTour/Expressions.java" />
+        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter07/BinaryTree/EulerTour/EulerTour.java" />
+        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter07/BinaryTree/EulerTour/EvaluateExpressionTour.java" />
+        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter07/BinaryTree/EulerTour/PrintExpressionTour.java" />
+        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter08/Entry.java" />
+        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter08/PriorityQueue.java" />
+        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter08/Position.java" />
+        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter07/BinaryTree/PositionList.java" />
+        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter08/PositionList.java" />
+        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter08/NodePositionList.java" />
+        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter08/ElementIterator.java" />
+        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter08/DefaultComparator.java" />
+        <option value="$PROJECT_DIR$/src/net/acmicpc/Q1002/Main.java" />
+        <option value="$PROJECT_DIR$/src/net/acmicpc/Recursion/Q4463/Main.java" />
+        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter08/Node.java" />
+        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter07/BinaryTree/BTNode.java" />
+        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter08/TreeExceptions.java" />
+        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter08/Tree.java" />
+        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter08/BinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter08/CompleteBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter08/ArrayListCompleteBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter08/HeapPriorityQueue.java" />
+        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter08/AdaptablePriorityQueue.java" />
+        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter08/LocationAwareEnrty.java" />
+        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter08/PQExceptions.java" />
+        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter08/EntryExceptions.java" />
+        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter08/Interface/Structures/AdaptablePriorityQueue.java" />
+        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter08/Interface/Structures/PriorityQueue.java" />
+        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter08/Interface/Structures/Tree.java" />
+        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter08/Interface/Structures/Tree/Tree.java" />
+        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter08/Interface/Structures/Trees/CompleteBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter08/Interface/Structures/Tree/CompleteBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter08/SortedListPriorityQueue.java" />
+        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter08/SortedListAdaptablePriorityQueue.java" />
+        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter08/Class/Node.java" />
+        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter08/Main.java" />
+        <option value="$PROJECT_DIR$/src/net/acmicpc/Exercise/Test.java" />
+        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter09/Entry.java" />
+        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter09/Position.java" />
+        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter09/Map.java" />
+        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter09/NodePositionList.java" />
+        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter09/Exceptions/LinkedListExceptions.java" />
+        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter09/PositionList.java" />
+        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter09/Node.java" />
+        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter09/ElementIterator.java" />
+        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter09/DoublyLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter09/SimpleListMap.java" />
       </list>
     </option>
   </component>
@@ -183,8 +314,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="y" value="-12" />
+    <option name="x" value="-10" />
     <option name="width" value="1462" />
     <option name="height" value="1852" />
   </component>
@@ -196,6 +326,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -219,27 +350,88 @@
               <item name="Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="dsalgo" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter07" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter08" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dsalgo" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter08" type="462c0819:PsiDirectoryNode" />
+              <item name="Class" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dsalgo" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter08" type="462c0819:PsiDirectoryNode" />
+              <item name="Class" type="462c0819:PsiDirectoryNode" />
+              <item name="List" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dsalgo" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter08" type="462c0819:PsiDirectoryNode" />
+              <item name="Interface" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dsalgo" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter08" type="462c0819:PsiDirectoryNode" />
+              <item name="Interface" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dsalgo" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter08" type="462c0819:PsiDirectoryNode" />
+              <item name="Interface" type="462c0819:PsiDirectoryNode" />
+              <item name="List" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dsalgo" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter09" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dsalgo" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter09" type="462c0819:PsiDirectoryNode" />
+              <item name="Exceptions" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547606008992" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548074297790" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Kotlin" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="michael.dsalgo.Chapter06.PositionList" />
+      <recent name="michael.dsalgo.Chapter07.BinaryTree" />
       <recent name="michael.dsalgo.Chapter05.LinkedListStack" />
       <recent name="michael.dsalgo.Chapter03.BookEx" />
       <recent name="com.doit.chapter06" />
-      <recent name="com.doit.chapter05" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\KwonMC\Documents\GitHub\Datastructure\Java\src\michael\dsalgo\Chapter07\BinaryTree" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -254,26 +446,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="net.acmicpc.Q1158.Main" />
+      <option name="MAIN_CLASS_NAME" value="net.acmicpc.Q1002.Main" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="net.acmicpc.Q1158.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="net.acmicpc.COCI0607.Q3054.Main" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="net.acmicpc.COCI0607.Q3054.*" />
+          <option name="PATTERN" value="net.acmicpc.Q1002.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -307,12 +486,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="net.acmicpc.COCI0607.Q3055.Main" />
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="net.acmicpc.Recursion.Q4463.Main" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="net.acmicpc.COCI0607.Q3055.*" />
+          <option name="PATTERN" value="net.acmicpc.Recursion.Q4463.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="net.acmicpc.Exercise.Test" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.acmicpc.Exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -321,19 +513,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.Main (2)" />
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.Main (4)" />
+      <item itemvalue="Application.Main (5)" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Main (5)" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -352,8 +544,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1453" height="933" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1753758" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18324982" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -362,7 +555,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32919255" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4996421" weight="0.8111801" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4996421" weight="0.5950311" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -372,397 +565,457 @@
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32919255" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" weight="0.329277" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.24982105" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32856122" />
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32999283" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/michael/dsalgo/Chapter08/Class/List/NodePositionList.java</url>
+          <line>98</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/net/acmicpc/Q2832/readme.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/acmicpc/Q2832/main.java">
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/math/BigDecimal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="22">
+          <caret line="221" column="26" selection-start-line="221" selection-start-column="26" selection-end-line="221" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/acmicpc/Q2841/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/acmicpc/Q2750/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-33">
-          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/acmicpc/Q3986/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/acmicpc/Recursion/Q9184/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="40" column="53" lean-forward="true" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/util/StringTokenizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="348" selection-start-line="348" selection-end-line="348" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/acmicpc/Q1788/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/acmicpc/Q1003/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/acmicpc/Q11653/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/acmicpc/readme.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter03/SinglyLinkedList/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter03/SinglyLinkedList/SinglyLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/acmicpc/Recursion/Q4463/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter05/LinkedListStack/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter05/HTMLTagMatching/HTML.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="57" column="55" lean-forward="true" selection-start-line="57" selection-start-column="55" selection-end-line="57" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter05/ArrayStack/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter05/Queue/QueueExecption.java" />
-    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter05/Queue/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter05/LinkedListStack/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="42" column="9" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="42" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter05/Queue/ArrayQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter05/Queue/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter05/LinkedListStack/NodeStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter05/ArrayStack/ArrayStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter05/Queue/NodeQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="50" column="15" lean-forward="true" selection-start-line="50" selection-start-column="15" selection-end-line="50" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter05/LinkedListStack/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter05/Josephus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/acmicpc/Q1158/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/acmicpc/COCI0607/Q3053/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="2" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/acmicpc/COCI0607/Q3054/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="51" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/acmicpc/Exercise/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1166">
-          <caret line="53" column="72" selection-start-line="53" selection-start-column="72" selection-end-line="53" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/acmicpc/COCI0607/Q3055/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="63" column="63" selection-start-line="63" selection-start-column="63" selection-end-line="63" selection-end-column="63" />
-          <folding>
-            <element signature="e#2178#2229#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter06/ArrayIndexList/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="56" column="49" selection-start-line="56" selection-start-column="49" selection-end-line="56" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter06/ArrayIndexList/IndexList.java">
+    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter07/BinaryTree/Position.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter05/Execptions.java">
+    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter07/BinaryTree/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="40" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter06/ArrayIndexList/ArrayIndexList.java">
+    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter07/BinaryTree/NodePositionList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="253">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter07/BinaryTree/ElementIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="28" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/acmicpc/Q1002/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/acmicpc/Recursion/Q4463/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="74" column="28" lean-forward="true" selection-start-line="74" selection-start-column="28" selection-end-line="74" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9812">
+          <caret line="518" column="57" selection-start-line="518" selection-start-column="57" selection-end-line="518" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter07/BinaryTree/PositionList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter07/TreeExceptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter07/BasicTree/Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" selection-start-line="4" selection-end-line="35" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter07/BinaryTree/BinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter07/BinaryTree/LinkedBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="97" column="8" selection-start-line="97" selection-start-column="8" selection-end-line="102" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter07/BinaryTree/BTNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter08/LocationAwareEnrty.java" />
+    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter08/Exceptions/TreeExceptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter08/Exceptions/PQExceptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter08/Exceptions/EntryExceptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter08/Interface/Tree/Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter08/Interface/Tree/BinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter08/Interface/Tree/CompleteBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter08/Interface/Queue/AdaptablePriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter08/Interface/Queue/PriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter08/Class/DefaultComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter08/Class/Queue/HeapPriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter08/Class/Queue/SortedListPriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter08/Class/Queue/SortedListAdaptablePriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter08/Class/Tree/ArrayListCompleteBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/readme.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/jdk/internal/util/Preconditions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="107" column="13" selection-start-line="107" selection-start-column="13" selection-end-line="107" selection-end-column="13" />
+        <state relative-caret-position="133">
+          <caret line="452" column="13" selection-start-line="452" selection-start-column="13" selection-end-line="452" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter08/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/acmicpc/Exercise/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/acmicpc/Exercise/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
           <folding>
-            <element signature="e#9099#9100#0" expanded="true" />
-            <element signature="e#9136#9137#0" expanded="true" />
-            <element signature="e#32345#32346#0" expanded="true" />
-            <element signature="e#32390#32391#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/util/Iterator.java">
+    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter08/Interface/Data/Entry.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
+        <state relative-caret-position="198">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/Iterable.java">
+    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter08/Interface/Data/Position.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-179">
-          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter06/PositionList/PositionException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter06/PositionList/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        <state relative-caret-position="44">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter06/PositionList/NodePositionList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="172" column="16" selection-start-line="172" selection-start-column="16" selection-end-line="172" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4410#4411#0" expanded="true" />
-            <element signature="e#4437#4438#0" expanded="true" />
-            <element signature="e#4581#4594#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-1078">
+          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter06/PositionList/Position.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter09/Exceptions.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter06/PositionList/PositionList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="671">
-          <caret line="95" column="65" selection-start-line="95" selection-start-column="65" selection-end-line="95" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter06/PositionList/ElementIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter05/Deque/DequeException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-          <folding>
-            <element signature="e#188#189#0" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter05/Deque/Deque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter06/CaseStudy/FavoriteList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter06/Sequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/readme.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="69" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter07/BasicTree/Position.java">
+    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter08/Interface/List/PositionList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+          <caret line="7" column="54" lean-forward="true" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter09/Exceptions/LinkedListExceptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="66" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter08/Class/Data/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+          <folding>
+            <element signature="e#738#739#0" expanded="true" />
+            <element signature="e#765#766#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter09/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+          <folding>
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#649#650#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter09/PositionList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter08/Class/ElementIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter09/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter09/Position.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter09/Entry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter08/Class/List/NodePositionList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1554">
+          <caret line="160" column="24" selection-start-line="160" selection-start-column="24" selection-end-line="160" selection-end-column="24" />
+          <folding>
+            <element signature="method#last#0;class#NodePositionList#0" />
+            <element signature="method#prev#0;class#NodePositionList#0" />
+            <element signature="method#addFirst#0;class#NodePositionList#0" />
+            <element signature="method#addLast#0;class#NodePositionList#0" />
+            <element signature="e#4668#4669#0" expanded="true" />
+            <element signature="e#4718#4719#0" expanded="true" />
+            <element signature="e#4840#4853#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter09/DoublyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1716">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1270#1271#0" expanded="true" />
+            <element signature="e#1294#1295#0" expanded="true" />
+            <element signature="e#1340#1341#0" expanded="true" />
+            <element signature="e#1368#1369#0" expanded="true" />
+            <element signature="e#3761#3762#0" expanded="true" />
+            <element signature="e#3788#3789#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter09/ElementIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/michael/dsalgo/Chapter09/SimpleListMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1298">
+          <caret line="90" column="39" lean-forward="true" selection-start-line="90" selection-start-column="39" selection-end-line="90" selection-end-column="39" />
+          <folding>
+            <element signature="class#MyEntry#0;class#SimpleListMap#0" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#599#600#0" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+            <element signature="e#888#889#0" expanded="true" />
+            <element signature="e#912#913#0" expanded="true" />
+            <element signature="e#958#959#0" expanded="true" />
+            <element signature="e#986#987#0" expanded="true" />
+            <element signature="e#1611#1612#0" expanded="true" />
+            <element signature="e#1638#1639#0" expanded="true" />
+            <element signature="e#1687#1688#0" expanded="true" />
+            <element signature="e#1714#1715#0" expanded="true" />
+            <element signature="e#1774#1775#0" expanded="true" />
+            <element signature="e#1801#1802#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

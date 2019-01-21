@@ -1,6 +1,6 @@
 package michael.dsalgo.Chapter06.PositionList;
 
-import michael.dsalgo.Chapter06.PositionList.PositionException.*;
+import michael.dsalgo.Chapter06.PositionList.PositionException.InvalidPositionException;
 
 public class Node<E> implements Position<E> {
     private E element;
