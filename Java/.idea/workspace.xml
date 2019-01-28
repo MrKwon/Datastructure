@@ -2,51 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="369e8476-0d1d-4d6f-bb2a-8ce0f757a22f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter09/Exceptions/EntryException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter09/HashTableMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter10/AVLTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter10/AVLTreeTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter10/BinarySearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter10/BinaryTree/Class/BTNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter10/BinaryTree/Class/ElementIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter10/BinaryTree/Class/LinkedBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter10/BinaryTree/Class/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter10/BinaryTree/Class/NodePositionList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter10/BinaryTree/Interface/BTPosition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter10/BinaryTree/Interface/BinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter10/BinaryTree/Interface/Position.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter10/BinaryTree/Interface/PositionList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter10/BinaryTree/Interface/Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter10/DefaultComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter10/Dictionary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter10/Entry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter10/Exceptions/EntryExceptions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter10/Exceptions/LinkedListExceptions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter10/Exceptions/TreeExceptions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter13/DecorablePosition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter13/EdgeListGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter13/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter13/Map.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter13/Position.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/net/acmicpc/ACMICPC/Q2319/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/net/acmicpc/Exercise/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/net/acmicpc/Exercise/Test3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/net/acmicpc/Exercise/Test4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/net/acmicpc/Q1068/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/net/acmicpc/Q1068/inputs.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/net/acmicpc/Q1836/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/michael/dsalgo/Chapter06/PositionList/NodePositionList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/michael/dsalgo/Chapter06/PositionList/NodePositionList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/michael/dsalgo/Chapter07/BinaryTree/NodePositionList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/michael/dsalgo/Chapter07/BinaryTree/NodePositionList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/michael/dsalgo/Chapter08/Class/List/NodePositionList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/michael/dsalgo/Chapter08/Class/List/NodePositionList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/net/acmicpc/Exercise/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/net/acmicpc/Exercise/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/net/acmicpc/Exercise/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/net/acmicpc/Exercise/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/net/acmicpc/Recursion/Q4463/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/net/acmicpc/Recursion/Q4463/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/michael/dsalgo/Chapter09/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter09/Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/michael/dsalgo/Chapter09/SimpleListMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/michael/dsalgo/Chapter09/SimpleListMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/acmicpc/Exercise/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/acmicpc/Exercise/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/acmicpc/Exercise/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/acmicpc/Exercise/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/acmicpc/Recursion/Q4463/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/acmicpc/Recursion/Q4463/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dapd/WeightedGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dapd/WeightedGraph.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -91,28 +47,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="581" />
+          <entry key="java" value="582" />
           <entry key="md" value="12" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="581" />
+          <entry key="JAVA" value="582" />
           <entry key="PLAIN_TEXT" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="61" />
-          <entry key="java" value="177941" />
+          <entry key="java" value="177996" />
           <entry key="md" value="1100" />
           <entry key="txt" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="177941" />
+          <entry key="JAVA" value="177996" />
           <entry key="PLAIN_TEXT" value="1200" />
         </counts>
       </usages-collector>
@@ -141,11 +97,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/net/acmicpc/Q1836/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
               <caret line="15" column="9" selection-start-line="13" selection-start-column="41" selection-end-line="15" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/dapd/WeightedGraph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="106" column="31" lean-forward="true" selection-start-line="106" selection-start-column="31" selection-end-line="106" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#389#390#0" expanded="true" />
+                <element signature="e#421#422#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -196,8 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter08/Interface/Structures/Tree/Tree.java" />
-        <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter08/Interface/Structures/Trees/CompleteBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter08/Interface/Structures/Tree/CompleteBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter08/SortedListPriorityQueue.java" />
         <option value="$PROJECT_DIR$/src/michael/dsalgo/Chapter08/SortedListAdaptablePriorityQueue.java" />
@@ -247,6 +215,8 @@
         <option value="$PROJECT_DIR$/src/net/acmicpc/Q1068/inputs.txt" />
         <option value="$PROJECT_DIR$/src/net/acmicpc/Q1068/Main.java" />
         <option value="$PROJECT_DIR$/src/net/acmicpc/Q1836/Main.java" />
+        <option value="$PROJECT_DIR$/src/dapd/bob.java" />
+        <option value="$PROJECT_DIR$/src/dapd/WeightedGraph.java" />
       </list>
     </option>
   </component>
@@ -281,6 +251,12 @@
               <item name="Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dapd" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -290,7 +266,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548644079091" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548666817656" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Kotlin" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
@@ -320,26 +296,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.WeightedGraph">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="net.acmicpc.Q1068.Main" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="net.acmicpc.Q1068.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="net.acmicpc.ACMICPC.Q2319.Main" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="net.acmicpc.ACMICPC.Q2319.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -386,20 +349,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WeightedGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dapd.WeightedGraph" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dapd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Test" />
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Test3" />
       <item itemvalue="Application.Test4" />
       <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.WeightedGraph" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WeightedGraph" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Test4" />
         <item itemvalue="Application.Test3" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -418,9 +394,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1453" height="933" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2118826" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2118826" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -437,7 +412,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5003579" side_tool="true" weight="0.49565217" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.18012422" />
-      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.4996421" weight="0.36770186" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.4996421" visible="true" weight="0.82981366" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
       <window_info anchor="right" id="Palette" order="2" />
@@ -469,13 +444,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="202" column="32" lean-forward="true" selection-start-line="202" selection-start-column="32" selection-end-line="202" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/util/Collection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -815,6 +783,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="15" column="9" selection-start-line="13" selection-start-column="41" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dapd/WeightedGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="106" column="31" lean-forward="true" selection-start-line="106" selection-start-column="31" selection-end-line="106" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

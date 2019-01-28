@@ -1,4 +1,4 @@
-package dapd;
+package dapd.Directed;
 
 import java.util.Iterator;
 import java.util.LinkedList;
@@ -107,7 +107,6 @@ public class WeightedGraph {
         graph.addEdge(4, 3, 6);
 
         for (int i = 0; i < 5; i++) {
-            System.out.printf("\nfirst vertex is %d\n", i);
             graph.longestPath(i);
             System.out.println();
         }
