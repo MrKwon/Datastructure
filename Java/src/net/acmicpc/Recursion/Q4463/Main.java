@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.StringTokenizer;
 
 public class Main {
-    private static ArrayList<Integer> fib(int max) {
+    private static ArrayList<Integer> fib(long max) {
         ArrayList<Integer> arr = new ArrayList<>();
 
         arr.add(0, 0);
@@ -14,6 +14,7 @@ public class Main {
         int i = 2;
         while (arr.get(i - 1) < max) {
             arr.add(i, arr.get(i - 2) + arr.get(i - 1));
+            System.out.println(arr.get(i));
             i++;
         }
 
@@ -45,8 +46,11 @@ public class Main {
 
             if (!st.hasMoreTokens()) break;
 
-            int lo = Integer.parseInt(st.nextToken().replace("0x", ""), 16);
-            int hi = Integer.parseInt(st.nextToken().replace("0x", ""), 16);
+            String strLo = st.nextToken().replace("0x", "");
+            String strHi = st.nextToken().replace("0x", "");
+
+            long lo = Long.valueOf(strLo, 16);
+            long hi = Long.valueOf(strHi, 16);
 
             if (lo >= hi) break;
 

@@ -97,17 +97,32 @@ public class SimpleListMap<K, V> implements Map<K, V> {
     }
 
     @Override
-    public Iterator<K> keys() {
-        return new ElementIterator<K>(this.);
+    public Iterable<K> keys() {
+        PositionList<K> keys = new DoublyLinkedList<>();
+        for (MyEntry<K, V> tmp : this.list) {
+            keys.addLast(tmp.getKey());
+        }
+
+        return keys;
     }
 
     @Override
-    public Iterator<V> values() {
-        return null;
+    public Iterable<V> values() {
+        PositionList<V> values = new DoublyLinkedList<>();
+        for (MyEntry<K, V> tmp : this.list) {
+            values.addLast(tmp.getValue());
+        }
+
+        return values;
     }
 
     @Override
-    public Iterator<Entry<K, V>> entries() {
-        return null;
+    public Iterable<Entry<K, V>> entries() {
+        PositionList<Entry<K, V>> entries = new DoublyLinkedList<>();
+        for (MyEntry<K, V> tmp : this.list) {
+            entries.addLast(tmp);
+        }
+
+        return entries;
     }
 }
